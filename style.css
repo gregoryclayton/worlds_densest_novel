@@ -29,7 +29,7 @@ canvas {
     width:80px;
     left:50%;
     top:2%;
-    
+    position: absolute;
     margin-left: -50px;
     cursor:crosshair;
     border-radius: 10px;
