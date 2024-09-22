@@ -1,4 +1,3 @@
-
 * {
     background-color: rgb(250, 250, 250);
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -12,8 +11,8 @@
 }
 
 body {
-    margin:100px;
-    margin-top:200px;
+  margin:  30px;
+   
 }
 
 canvas {
@@ -25,14 +24,20 @@ canvas {
     border-radius: 10px;
 }
 
+.logocontainer {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
 #logo {
-    width:100px;
-    left:50%;
-    top:5%;
-    position: absolute;
-    margin-left: -50px;
+    width:80px;
+    
+   
+   
     cursor:crosshair;
-    border-radius: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 a {
     text-decoration: none;
@@ -48,6 +53,7 @@ a:hover {
 p {
     line-height: 30px;
     z-index: 3;
+    font-size: 15px;
    
 }
 
@@ -60,4 +66,22 @@ p {
     cursor:crosshair;
     border-radius: 10px;
     width: 300px;
+}
+
+
+.adcontainer {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.ad {
+    width: 60%;
+    border-radius: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.bottomdiv {
+    margin-bottom: 50px;
 }
